@@ -14,3 +14,11 @@ Each conversion specification is introduced by the % character. The arguments mu
     s: The char * argument is expected to be a pointer to an array of character type (pointer to a string). 
        Characters from the array are written up to (but not including) a terminating NUL character.
     p: The void * pointer argument is printed in hexadecimal.
+ 
+ # Instructions
+ 
+    1. Run make to create the command my_printf
+    2. Then run ./my_printf to print the test cases set on main.c
+    3. You can comment/modify test cases on main.c to test the function call
+    4. You can use my_printf to replace printf with limitations, of course :)
+    5. Have fun!
